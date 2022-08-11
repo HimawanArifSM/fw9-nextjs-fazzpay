@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+
+.lp-header{
+    background: url(../public/images/MaskGroup1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 45%; 
+    padding: 5% 10%;
+    }
+
+@media (max-width: 767.98px) { 
+    .lp-header{
+        background: none; 
+        background-repeat: none;
+        background-position: none;
+        background-size: 50px; 
+        padding: 5px 10px;
+        }
+
+    .lp-img-phone{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .pad-body{
+        padding: 5px 8px 5px 8px;
+    }
+ }
+.pad-r200{
+    margin-right: 200px;
+}
+.pad-main{
+    padding: 120px 150px;
+}
+.pad-content{
+    padding: 35px 150px !important;
+}
+.margin-btm{
+    margin-bottom: 30px;
+}
+.margin-btm-ex{
+    margin-bottom: 300px;
+}
+.margin-mn{
+    margin-left: 13px;
+}
+.bg-main{
+    background-color: #47d3d5;
+}
+.bg-main-ct{
+    background-color: #47d3d5;
+    border-radius: 20px;
+}
+.pad-sec-1{
+    padding: 30px 30px;
+}
+.pad-sec-2{
+    padding: 13px 13px;
+}
+.text-ctr{
+    text-align: center;
+}
+.main-clr{
+    color: #6379F4;
+}
+.sc-clr{
+    color: rgb(50, 94, 78);
+}
+
+.flex-btwn{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-row{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+.flex-col{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.blue-button{
+    background: #6379F4;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    width: 120px;
+    height: 50px;
+    padding: 12px 5px 13px;
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+.wid-imp{
+    width: 200px !important;
+}
+.wid-imp2{
+    width: 10px !important;
+}
+.white-button{
+    background: #FFFFFF;
+    border: 2px solid #6379F4;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #6379F4;
+    min-width: 120px;
+    min-height: 50px;
+    padding: 12px 5px 13px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}.auth-intro{
+    background: url(../public/images/Mask-Group-login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.auth-form-wrapper{
+    padding-top: 7%;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-bottom: 7%;
+}
+.fw-input{
+    border: unset;
+    border-bottom: 1px solid gray;
+    border-radius: unset;
+    font-size: 16px;
+}
+.fw-input:focus{
+    border-color: unset;
+    box-shadow: unset;
+}
+.icon-style{
+    width: 20px;
+    height: auto;
+}
+.fw-inp-icon{
+    background: unset;
+    border: unset;
+    border-bottom:1px solid gray;
+    border-radius: unset;
+}
+.pin-input-wrapper{
+    max-height: 60px;
+}
+.pin-input-wrapper input:focus{
+    outline: none;
+}
+.header-zwallet{
+    font-family: 'Nunito Sans'; 
+    font-style: normal; 
+    font-weight: 700;   
+    font-size: 29px;
+    line-height: 40px;
+    color: #6379F4;
+}
+.font-700{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 25px;
+}
+.font-400{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+.f400-main{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+    color: #47d3d5;
+}
+.f400-bck{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    color: black;
+}
+.sidebar{
+    padding: 50px 0 50px 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgba(58, 61, 66, 0.8);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.style-profile-main{
+    padding: 5px 5px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;text-align: center;
+    color: #3A3D42;
+}
+.zwallet-footer{
+    background:#47d3d5;
+    padding: 50px 80px 50px 80px;
+    color: black;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+.bg-white{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+.bg-white-shadow{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+}
+.input-no-border{
+    border: unset !important;
+    border-bottom:1px solid gray !important;
+    background-color: unset;
+    border-radius: unset;
+}
+.input-no-border:focus{
+    outline: none !important ;
+}
+.pin-inp{
+    width: 35px; 
+    height: 50px; 
+    border: unset; 
+    border-bottom: 1px solid gray;
+    font-size: 16px; 
+    text-align: center;
+    border-radius: unset;
+}
+.header-bg{
+    padding: 50px 50px 50px 80px;
+    background-color: white;
+}
+.bg-gray{
+    background: #e7ebee;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px; 
+    padding: 30px 30px;
+}
+.pict-style{
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+}
+.pict-style2{
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+.pict-style3{
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+}
+@media (max-width: 767.98px) { 
+    .header-bg{
+        padding: 5px 5px 5px 8px;
+        background-color: white;
+    }
+    .sb-brake{
+        flex-direction: row !important;
+    }
+    .no-disp{
+        display: none !important;
+        text-rendering: unset !important;
+    }
+    .pad-content{
+        padding: 5px 5px !important;
+    }
+    .col-10{
+        width: 100%;
+    }
+    .zwallet-footer{
+        padding: 10px 10px !important;
+    }
+ }
+ .pin-inpt{
+    border: 1px solid gray;padding: 5px 5px; border-radius: 10px;height: 60px;
+ }
+ .scs-icon{
+    width: 70px;
+    height: 70px;
+ }
+ .no-border{
+    border: unset;
+    width: 65px;
+ }
+ .no-border2{
+    border: unset;
+ }
+ .wd200{
+    width: 500px;
+ }
+ .modal-style{
+    border: 1px solid gray;padding: 5px 5px; border-radius: 10px;
+ }
+ .bg-round{
+    border-radius: 100%;
+    background-color: rgb(191, 191, 191);
+    width: 89px;
+    height: 89px;
+ }
+ .no-flex{
+    flex: unset !important;
+ }
+ .width-auto{
+    height: 30px;
+    width: 300px;
+ }
+ .place-holder-center::placeholder {
+    text-align: center;
+}
+.pin.form-control.is-invalid, .was-validated .pin.form-control:invalid{
+    background-image: none !important;
+    padding-right: 0px !important;
+}
