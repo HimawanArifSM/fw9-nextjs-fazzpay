@@ -27,7 +27,7 @@ export default function index() {
                 <h1>J-Money</h1>
               </div>
               <div className='d-flex gap-2'>
-                <Link  href="/login"><a className='blue-button text-decoration-none'>login</a></Link>
+                <Link  href="/auth/login"><a className='blue-button text-decoration-none'>login</a></Link>
                 <Link  href="/register"><a className='white-button text-decoration-none'>Sign Up</a></Link>
               </div>
             </Container>
